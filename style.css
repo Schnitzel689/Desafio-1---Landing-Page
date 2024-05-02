@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    font-family: Inter;
+}
+
+.setor1{
+    background-color:#303030;
+    height: 475px;
+    
+    color: #FFFFFF;
+    
+}
+
+#TituloPrincipal{
+    margin-left: 62px;
+    padding-top: 206px; 
+    font-size: 45px;  
+}
+
+#TextoPrincipal{
+    margin-left: 62px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.setor2{
+    height: 229px;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+
+#textossetor2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    padding: 80px 0px 0px 250px;
+}
+
+.numero{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.setor3{
+    display: flex;
+    align-items: flex-start; /* Alinhar os itens ao topo */
+    margin-top: 77px;
+    padding-bottom: 77px ;
+}
+
+.info{
+    flex: 1; /* Ocupa todo o espaço disponível */
+    margin-right: 10px; /* Espaçamento entre o texto e a imagem */
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 200px;
+    
+}
+
+#imagem{
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 150px;
+}
+
+#textoprincipal3{
+    font-size: 40px;
+}
+
+#texto3{
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.forms{
+    text-align: center;
+    background-color: #303030;
+    height: 500px;
+}
+
+#textoPrincipal4{
+    padding-top: 50px;
+    color: #FFFFFF;
+
+}
+
+input{
+    width: 350px;
+                    height: 53px;
+                    background-color: #EAECE5;
+                    border: none;
+                    border-radius: 10px;
+                    margin: 50px;
+                    margin-left: 750px;
+                    color: #383838;
+                    padding-left: 10px;
+                    display: block;
+                    align-items: center;
+                    cursor: text;
+                    
+}
+
+button{
+    background-color: #C07212;
+    border: none;
+    color: white;
+    padding:15px 50px 15px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.7s;
+}
+
+button:hover{
+    background-color:#754408;
+    transform:scale(1.1)
+}
